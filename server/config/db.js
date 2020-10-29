@@ -5,7 +5,6 @@ Student ID: 301122149
 Web App Name: COMP229-F2020-MidTerm-301122149
 */
 
-
 module.exports = {
   //local MongoDB deployment ->
   //"URI": "mongodb://localhost/books229"

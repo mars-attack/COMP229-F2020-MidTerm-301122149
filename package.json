@@ -1,6 +1,6 @@
 {
-  "name": "comp229-f2020-midterm",
-  "version": "0.0.1",
+  "name": "comp229-f2020-midterm-301122149",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node server.js"
@@ -45,17 +45,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mars-attack/COMP229-F2020-MidTerm-301122149.git"
   },
   "keywords": [
     "NodeJS",
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Marianne Palmer",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": ""
+  "homepage": "https://github.com/mars-attack/COMP229-F2020-MidTerm-301122149#readme"
 }
