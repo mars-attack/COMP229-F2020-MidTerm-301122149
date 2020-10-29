@@ -2,7 +2,7 @@
 File name: books.js
 Author: Marianne Palmer
 Student ID: 301122149
-Web App Name: COMP229-F2020-MidTerm-301122149
+Web App Name: COMP229-F2020-301122149
 */
 
 // modules required for routing
@@ -32,7 +32,7 @@ router.get('/', (req, res, next) => {
 //  GET the Book Details page in order to add a new Book
 router.get('/add', (req, res, next) => {
 
-    res.render('books/details', { title: 'Add Book', books: book});
+    res.render('books/details', { title: 'Add Book', books: ''});
 
 });
 
