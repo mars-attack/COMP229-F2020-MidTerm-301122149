@@ -1,3 +1,12 @@
+/* 
+File name: app.js
+Author: Marianne Palmer
+Student ID: 301122149
+Web App Name: COMP229-F2020-301122149
+*/
+
+//* Changes to the this file: changed delete button to redirect to /books
+
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */

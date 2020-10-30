@@ -1,3 +1,10 @@
+<!--
+File name: header.ejs
+Author: Marianne Palmer
+Student ID: 301122149
+Web App Name: COMP229-F2020-301122149
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,7 +40,8 @@
           <li><a href="/"><i class="fa fa-home fa-lg"></i> Home</a></li>
         <% } %>
 
-          <% if(title == "books") { %>
+          <!--Changed books to Books to fix active highlighting (done after video recording)-->
+          <% if(title == "Books") { %>
           <li class="active"><a href="/books"><i class="fa fa-book fa-lg">
           </i> Books List</a></li>
           <% } else { %>
