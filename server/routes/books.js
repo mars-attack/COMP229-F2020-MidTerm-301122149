@@ -31,9 +31,7 @@ router.get('/', (req, res, next) => {
 
 //  GET the Book Details page in order to add a new Book
 router.get('/add', (req, res, next) => {
-
-    res.render('books/details', { title: 'Add Book', books: ''});
-
+    res.render('books/details', { title: 'Add Book', books: ''}); // blank value for books needed to prevent error loading page
 });
 
 // POST process the Book Details page and create a new Book - CREATE
@@ -56,7 +54,6 @@ router.post('/add', (req, res, next) => {
     }
     else
     {
-      // refresh the list
       res.redirect('/books');
     }
   });
