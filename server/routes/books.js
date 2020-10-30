@@ -31,7 +31,7 @@ router.get('/', (req, res, next) => {
 
 //  GET the Book Details page in order to add a new Book
 router.get('/add', (req, res, next) => {
-    res.render('books/details', { title: 'Add Book', books: ''}); // blank value for books needed to prevent error loading page
+    res.render('books/details', { title: 'Add Book', books: ''}); // blank value for books needed to prevent error loading page (expecting book properties in form)
 });
 
 // POST process the Book Details page and create a new Book - CREATE
